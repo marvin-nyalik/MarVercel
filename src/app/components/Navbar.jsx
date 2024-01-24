@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 pt-1">
           <Link href={"#home"}>
             <Image
-              src="/images/Binyam-M-logo.png"
+              src="/images/logo.png"
               alt="Logo images"
               width={50}
               height={50}
