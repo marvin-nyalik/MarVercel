@@ -14,15 +14,15 @@ nav ul span {
   left: -2.7rem;
   width: 70px;
   height: 100%;
-  background: rgb(77, 152, 77);
-  box-shadow: 0 0 10px greenyellow;
+  background: rgb(28, 113, 188);
+  box-shadow: 0 0 5px greenyellow;
   border-radius: 10px;
   transition: 0.7s;
 }
 
 .mob-link-li:hover {
-  background: rgb(77, 152, 77);
-  box-shadow: 0 0 10px greenyellow;
+  background: rgb(28, 113, 188);
+  box-shadow: 0 0 5px rgb(113, 161, 42);
   border-radius: 10px;
   color: white;
 }
