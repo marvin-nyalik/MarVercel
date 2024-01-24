@@ -31,12 +31,12 @@
 
 .preview-btn {
   background: linear-gradient(45deg, #335676, #016443);
+  border: 2px;
 }
 
 .techStack-cont:hover,
 .preview-btn:hover {
-  border: 2px solid rgb(77, 152, 77);
-  box-shadow: 0 0 20px greenyellow;
-  background: linear-gradient(45deg, #54a625, #003153);
+  border-color: rgb(77, 152, 77);
+  background: linear-gradient(45deg, #25a6a2, #b10bb4);
   color: white;
 }
