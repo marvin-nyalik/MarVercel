@@ -13,17 +13,16 @@ const About = () => {
         </h2>
         <div className="about-bio h-96 md:h-auto overflow-scroll">
           <p className="text-[#ADB7BE] w-full text-lg sm:text-xl text-center my-10">
-            Post graduating with a degree in Computer Science, I joined Powerchina, an international construction firm working on upgrading electrical network system in Addis Ababa, Ethiopia.
-            I worked as a site supervisor, electrical engineer and assistant manager in technical and logistics department over a span of 5 years. By the end of 2022, I decided to pursue my passion for programming.
+            Post graduating with a degree in Computer Science, I joined the Nairobi Hight Court, Kenyas premier judicial outlet in Nairobi, Kenya.
+            I worked as an I.T support technician for little over a year. By the end of 2022, I decided to pursue my passion for software programming.
             I enrolled at Microverse, an online school that offers a worldclass curriculum to learn full-stack web development. My favourite part of programming is the problem solving aspect. I love the feeling of
-            finally figuring out a solution to a problem. My core stack includes React.js, Ruby on Rails, Node.js, PostgreSQL, and MongoDB. I am also familar with other programming language related with data analysis,
-            such as Python and R. When I am not coding, I enjoy brushing my mandarine, watching documentaries, and discovering new things. I am always eager to collaborate and learn new technologies.
-            Currently I am looking for a position as a software developer.
+            figuring out a solution to highly technical problems. My core stack includes React JS, JavaScript, Ruby, Rails, and PostgreSQL. I am also familar with other general purpose programming languages such as Python and Java.
+            When I am not coding, I enjoy hiking, watching documentaries, and discovering new things. I am always eager to collaborate and learn new technologies.
           </p>
         </div>
         <div className="flex flex-col mt-5 sm:flex-row justify-center align-center items-center py-3">
           <button className="resume-btn mb-10 sm:mb-0 w-fit px-8 py-3 sm:ml-0 rounded-full sm:mr-12 text-white">
-            <a target="_blank" className="flex" href="https://drive.google.com/file/d/1eJk21_4qUsUFHvbtge60n7VKarVTy67p/view?usp=sharing">
+            <a target="_blank" className="flex" href="https://docs.google.com/document/d/11NBCRUTTdZXym0cOoJyAzpTzDYZmDw4GhMXjc_ylmBg/edit?usp=sharing">
               <span className="text-lg mr-3">
                 Resume
               </span>
@@ -35,7 +34,6 @@ const About = () => {
               />
             </a>
           </button>
-          <Modal />
         </div>
         <h3 className="text-center mx-[5%] my-10 text-2xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
           My Skills
