@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useForm, ValidationError } from '@formspree/react';
-import { FaInstagram, FaLinkedin, FaSquareGithub,  FaXTwitter } from "react-icons/fa6";
+import { FaMedium, FaSquareGithub,  FaXTwitter } from "react-icons/fa6";
 
 const EmailSection = () => {
   const [state, handleSubmit] = useForm("xleqeprd");
@@ -29,10 +29,9 @@ const EmailSection = () => {
            my inbox is always open. I will get back to you!
         </p>
         <div className="home-sci mb-2 ml-5 flex justify-between sm:justify-start sm:ml-0">
-          <a target="_blank" href="https://www.linkedin.com/in/binyamtegene/"><FaLinkedin size={17} /></a>
-          <a target="_blank" href="https://github.com/Log-benjamin/"><FaSquareGithub size={17} /></a>
-          <a target="_blank" href="https://twitter.com/@binyam_tegene"><FaXTwitter size={17} /></a>
-          <a target="_blank" href="https://www.instagram.com/mengistu.binyam/"><FaInstagram size={17} /></a>
+          <a target="_blank" href="https://twitter.com/NyalikMarvin"><FaXTwitter size={17} /></a>
+          <a target="_blank" href="https://github.com/marvin-nyalik/"><FaSquareGithub size={17} /></a>
+          <a target="_blank" href="https://medium.com/@nyalik.marvin"><FaMedium size={17} /></a>
         </div>
       </div>
       <div>
@@ -42,7 +41,7 @@ const EmailSection = () => {
           </p>
         ) :( null
         )}
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form className="flex flex-col" action="https://formspree.io/f/xqkonprl" method="post">
             <div className="mb-6">
               <label
                 htmlFor="email"
