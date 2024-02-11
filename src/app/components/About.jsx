@@ -13,11 +13,11 @@ const About = () => {
         </h2>
         <div className="about-bio h-96 md:h-auto overflow-scroll">
           <p className="text-[#ADB7BE] w-full text-lg sm:text-xl text-center my-10">
-            Post graduating with a degree in Computer Science, I joined the Nairobi Hight Court, Kenyas premier judicial outlet in Nairobi, Kenya.
-            I worked as an I.T support technician for little over a year. By the end of 2022, I decided to pursue my passion for software programming.
-            I enrolled at Microverse, an online school that offers a worldclass curriculum to learn full-stack web development. My favourite part of programming is the problem solving aspect. I love the feeling of
-            figuring out a solution to highly technical problems. My core stack includes React JS, JavaScript, Ruby, Rails, and PostgreSQL. I am also familar with other general purpose programming languages such as Python and Java.
-            When I am not coding, I enjoy hiking, watching documentaries, and discovering new things. I am always eager to collaborate and learn new technologies.
+          Hello, I'm Marvin, a results-oriented Software developer known for my disciplined approach and unwavering focus on delivering exceptional user experiences. With my extensive expertise in JavaScript and React, I've played a pivotal role in numerous successful web applications, consistently exceeding client expectations.
+I thrive in collaborative environments, seamlessly integrating with remote teams to learn, review code, and craft innovative solutions. Leveraging tools like Slack and Git, I foster open communication and foster a culture of continuous improvement. My commitment to staying abreast of industry trends ensures that I'm always at the forefront of technological advancements, allowing me to adapt and evolve with ease.
+Driven by a passion for problem-solving, I embrace challenges head-on, utilizing the SOLID principles and 12-factor app methodology to produce high-quality, scalable code. Whether it's optimizing performance or overcoming complex technical hurdles, I approach each task with enthusiasm and a solution-oriented mindset.
+Beyond the code, I bring a personal touch to my work, drawing inspiration from my love for writing and infusing creativity into every project. By combining technical expertise with a collaborative spirit and a relentless pursuit of excellence, I consistently deliver results that exceed expectations and drive business success.
+
           </p>
         </div>
         <div className="flex flex-col mt-5 sm:flex-row justify-center align-center items-center py-3">
