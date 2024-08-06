@@ -7,6 +7,42 @@ import { SiWebpack, SiJest, SiBabel, SiEslint, SiStylelint, SiBootstrap, SiRedux
 
 const projectsData = [
   {
+    id: 3,
+    title: "Aora",
+    description: "Aora is a video-sharing app built with React Native and Appwrite, allowing users to create, bookmark, and view videos, including the latest videos. The app is developed using Expo and can be run in development mode with the Expo client app",
+    image: "/images/projects/Aora.jpg",
+    gitUrl: "https://github.com/marvin-nyalik/AoraE.git",
+    previewUrl: "https://github.com/marvin-nyalik/AoraE.git",
+    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<SiBabel key={2} size={27} />, "https://babeljs.io/"], [<SiEslint key={4} size={30} />, "https://eslint.org/"]]
+  },
+  {
+    id: 4,
+    title: "Rick & Morty Explorer",
+    description: "The Rick & Morty Explorer uses the Rick and Morty API to display a list of locations alongside their name, type and characters. Character details can be checked and persistent comments about a specific character recorded.",
+    image: "/images/projects/rick.PNG",
+    gitUrl: "https://github.com/marvin-nyalik/rick-and-morty.git",
+    previewUrl: "https://github.com/marvin-nyalik/rick-and-morty.git",
+    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<SiRedux key={2} size={33} />, "https://redux.js.org/"], [<TbApi key={4} size={25} />,"https://restfulapi.net/"], [<SiBootstrap key={4} size={33} />, "https://getbootstrap.com/" ]]
+  },
+  {
+    id: 5,
+    title: "Jobit",
+    description: "Jobit is a React Native app built with Expo for job search. It initially loads Web Developer and React jobs and allows users to search for jobs by keyword (e.g., Project management jobs or job type (e.g., Full-time, Part-time, contractor).",
+    image: "/images/projects/jobit.jpg",
+    gitUrl: "https://github.com/marvin-nyalik/bookstore-redux",
+    previewUrl: "https://final-bookstore.onrender.com/",
+    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<SiBabel key={2} size={27} />, "https://babeljs.io/"], [<SiStylelint key={3} size={27} />, "https://stylelint.io/"], [<SiEslint key={4} size={30} />, "https://eslint.org/"]]
+  },
+  {
+    id: 6,
+    title: "Ello",
+    description: "A teacher's web viewer product that allows them assign books of study to students",
+    image: "/images/projects/ello.PNG",
+    gitUrl: "https://github.com/marvin-nyalik/ello-book-assignment.git",
+    previewUrl: "https://github.com/marvin-nyalik/ello-book-assignment.git",
+    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<TbBrandJavascript key={1} size={30} />,"https://www.javascript.com/"], [<SiWebpack key={2} size={30} />,"https://webpack.js.org/"],[<SiJest key={3} size={25} />,"https://jestjs.io/"], [<TbApi key={4} size={25} />,"https://restfulapi.net/"]]
+  },
+  {
     id: 1,
     title: "News Pulse",
     description: "NewsPulse is a digital platform that provides up-to-date and relevant information on current events, developments, and worldwide stories.",
@@ -22,42 +58,6 @@ const projectsData = [
     image: "/images/projects/IMoviesShowcase.png",
     gitUrl: "https://github.com/marvin-nyalik/IMovies",
     previewUrl: "https://marvin-nyalik.github.io/IMovies/dist/",
-    techStack: [[<TbBrandJavascript key={1} size={30} />,"https://www.javascript.com/"], [<SiWebpack key={2} size={30} />,"https://webpack.js.org/"],[<SiJest key={3} size={25} />,"https://jestjs.io/"], [<TbApi key={4} size={25} />,"https://restfulapi.net/"]]
-  },
-  {
-    id: 3,
-    title: "Math Magicians",
-    description: "This is a fully responsive calculator built in React, Coupled with interesting, randomly generated Mathematics quotes.",
-    image: "/images/projects/3.JPG",
-    gitUrl: "https://github.com/marvin-nyalik/mathmagicians",
-    previewUrl: "https://mathematics-magicians.onrender.com/",
-    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<SiBabel key={2} size={27} />, "https://babeljs.io/"], [<SiStylelint key={3} size={27} />, "https://stylelint.io/"], [<SiEslint key={4} size={30} />, "https://eslint.org/"]]
-  },
-  {
-    id: 4,
-    title: "Space-Travelers Hub",
-    description: "This is an app for Space X that provides commercial and scientific space travel services. Built with React and Redux, The app allows users to reserve rockets and join selected space missions.",
-    image: "/images/projects/4.JPG",
-    gitUrl: "https://github.com/marvin-nyalik/space-travelers-hub",
-    previewUrl: "https://space-travellers-hub-8qpe.onrender.com/",
-    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<SiRedux key={2} size={33} />, "https://redux.js.org/"], [<TbApi key={4} size={25} />,"https://restfulapi.net/"], [<SiBootstrap key={4} size={33} />, "https://getbootstrap.com/" ]]
-  },
-  {
-    id: 5,
-    title: "Book Store",
-    description: "A simple webapp built with react that provides information about different generes of books, progress report on the book with comment and edit features.",
-    image: "/images/projects/5.JPG",
-    gitUrl: "https://github.com/marvin-nyalik/bookstore-redux",
-    previewUrl: "https://final-bookstore.onrender.com/",
-    techStack: [[<IoLogoReact key={1} size={33} />, "https://react.dev/"], [<SiBabel key={2} size={27} />, "https://babeljs.io/"], [<SiStylelint key={3} size={27} />, "https://stylelint.io/"], [<SiEslint key={4} size={30} />, "https://eslint.org/"]]
-  },
-  {
-    id: 6,
-    title: "Leaderboard",
-    description: "A Gamer's haven, the Leadeboard ranks gamer's based on their score in a Casino game, crowning the king, and rewarding the runner up positions.",
-    image: "/images/projects/leaderboard.png",
-    gitUrl: "https://github.com/marvin-nyalik/Leaderboard",
-    previewUrl: "https://marvin-nyalik.github.io/Leaderboard/dist/",
     techStack: [[<TbBrandJavascript key={1} size={30} />,"https://www.javascript.com/"], [<SiWebpack key={2} size={30} />,"https://webpack.js.org/"],[<SiJest key={3} size={25} />,"https://jestjs.io/"], [<TbApi key={4} size={25} />,"https://restfulapi.net/"]]
   }
 ];
